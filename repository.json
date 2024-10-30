@@ -1,20 +1,18 @@
 {
-    "repositories": [
-      {
-        "name": "Dokuly Plugins",
-        "packages": [
-          {
-            "name": "KiCad to dokuly",
-            "description": "Generates production files such as Gerber, Drill, Schematic, and uploads them to dokuly",
-            "version": "1.0.0",
-            "author": "Gaute Wierød Rønning",
-            "license": "GPL-3.0",
-            "download_url": "https://github.com/Dokuly-PLM/kicad-to-dokuly-plugin/archive/refs/tags/v1.0.0.zip",
-            "dependencies": [],
-            "kicad_version": ">=8.0.0"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "maintainer": {
+      "contact": {
+          "web": "https://github.com/Dokuly-PLM/kicad-plugins"
+      },
+      "name": "Gaute Wierød Rønning"
+  },
+  "name": "Dokuly Plugins Repository",
+  "packages": {
+      "sha256": "7E430A8A60B5E204212AAC35EC7BA42B6D0A8467B9C824D92D12C8A6C4755BB9",
+      "update_time_utc": "2024-10-30T12:00:00Z",
+      "update_timestamp": 1729767696,
+      "url": "https://raw.githubusercontent.com/Dokuly-PLM/kicad-plugins/main/packages.json"
+  },
+  "resources": {}
+}
+
